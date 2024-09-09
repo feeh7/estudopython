@@ -1,9 +1,9 @@
-maioremenor = []
+maioremenor = [] #vetor
 
-print("Olá, digite 10 números e irei mostrar para você todos eles do menor para o maior")
-
-for i in range(10):
+print("Olá, digite 10 números e irei mostrando-os para você todos eles do menor para o maior") #mensagem ao usuario
+ 
+for i in range(10): #repetição da pergunta abaixo
     numero = float(input(f"Digite o número {i + 1}: "))
     maioremenor.append(numero)
-    maioremenor.sort()
+    maioremenor.sort() #.sort(ordena do menor para maior)
     print("Números do menor para o maior:", maioremenor)
