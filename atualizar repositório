@@ -1,0 +1,8 @@
+cd (local da pasta)
+dir
+git status
+git add .
+git commit -m "alteração"
+git pull origin main "ver alterações por outra pessoa"
+git push origin main "mandar para github"
+colocar conta do github
